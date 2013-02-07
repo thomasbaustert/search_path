@@ -32,10 +32,7 @@ RSpec::Core::RakeTask.new
 task :test    => :spec
 task :default => :spec
 
-#require 'rubygems/tasks'
-#Gem::Tasks.new
+require 'rubygems/tasks'
+Gem::Tasks.new
 
-#Bundler::GemHelper.install_tasks
-#
-## TODO 09.12.12/17:11/tbaustert remove
-require 'tb_gem_release/gem_tasks'
+Bundler::GemHelper.install_tasks

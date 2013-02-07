@@ -17,9 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  # TODO 09.12.12/17:11/tbaustert remove
-  gem.add_development_dependency 'tb_gem_release'
-
   gem.add_development_dependency 'fakefs'
   gem.add_development_dependency 'rubygems-tasks'
   gem.add_development_dependency 'bundler'
