@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/thomasbaustert/search_path.svg?branch=master)](https://travis-ci.org/thomasbaustert/search_path)
+
 ## SearchPath
 
 Allows to define search paths to find files in.
